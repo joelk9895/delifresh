@@ -1,11 +1,24 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   padding: 6rem;
-  min-height: 100vh;
+  width: 90%;
+  margin-top: 5vh;
+  border-radius: 2rem;
+  min-height: 90vh;
+  background-color:#99caff;
+background-image:
+radial-gradient(at 89% 2%, hsla(64,89%,79%,1) 0px, transparent 50%),
+radial-gradient(at 83% 0%, hsla(334,81%,71%,1) 0px, transparent 50%),
+radial-gradient(at 36% 71%, hsla(275,79%,67%,1) 0px, transparent 50%),
+radial-gradient(at 96% 89%, hsla(286,60%,69%,1) 0px, transparent 50%),
+radial-gradient(at 92% 91%, hsla(184,86%,73%,1) 0px, transparent 50%),
+radial-gradient(at 42% 18%, hsla(20,90%,60%,1) 0px, transparent 50%),
+radial-gradient(at 3% 67%, hsla(69,67%,74%,1) 0px, transparent 50%);
 }
+
 
 .description {
   display: inherit;
